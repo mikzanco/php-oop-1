@@ -1,7 +1,12 @@
 <?php
 
 class Movie{
-    
+    public $title;
+    public $date;
+    public $autho;
+    public $actor;
+    // public $where;
+
 }
 
 ?>
