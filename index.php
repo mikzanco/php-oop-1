@@ -30,7 +30,7 @@ $filmList = [$film1, $film2];
     <title>php-oop-1</title>
 </head>
 <body>
-    <table class="table w-75 m-auto text-center my-5">
+    <table class="table w-95 m-auto text-center my-5">
         <thead>
             <tr>
             <th scope="col">Titolo</th>
