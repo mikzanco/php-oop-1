@@ -7,6 +7,14 @@ class Movie{
     public $actor;
     // public $where;
 
+
+    public function __construct($_title, $_date, $_author, $_actor)
+    {
+        $this->title = $_title;
+        $this->date = $_date;
+        $this->author = $_author;
+        $this->actor = $_actor;
+    }
 }
 
 ?>
