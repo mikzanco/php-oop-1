@@ -25,9 +25,7 @@ class Movie{
 
     // creo una funzione per calcolare da quanti giorni è uscito il film
     public function dayFrom(){
-        
-        // $datetime1 = date_create('17-09-2018');
-        // $datetime2 = date_create('25-09-2018');
+               
         $dateFilm = date_create($this->date);
         $dateNow = date_create('now');
   
