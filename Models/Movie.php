@@ -1,20 +1,20 @@
 <?php
 
+// il nome dei file nella cartella Models va con l'niziale in maiuscolo e messa al singolare
 class Movie{
     public $title;
     public $date;
     public $img;
     public $author;
     public $leadingActor;
-    // public $where;
 
+    //  @param o @var posso usare una delle due indifferentemente
     /**
      * @param Title $title
      * @param String $date
      * @param String $author
      * @param String $leadingActor
      */
-
     public function __construct(Title $_title = null, $_date, $_author, $_leadingActor)
     {
         $this->title = $_title;
@@ -31,6 +31,8 @@ class Movie{
   
         // Calculates the difference between DateTime objects
         $interval = date_diff($dateNow, $dateFilm);
+
+        // $intervalN = -$interval;
         
         // Display the result
         echo $interval->format(' %R%a days ');

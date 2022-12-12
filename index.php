@@ -1,10 +1,11 @@
 <?php
 
-include_once './class/Title.php';
-include_once './class/Movie.php';
+// includes_once o require_once posso usare una delle due indifferentemente per richiamare il file da un altra cartella
+include_once './Models/Title.php';
+include_once './Models/Movie.php';
 
 
-$film1 = new Movie(new Title("John Wick", ''),"22-01-2014", "Chad Stahelski", "Keanu Reeves");
+$film1 = new Movie(new Title("John Wick", null),"22-01-2014", "Chad Stahelski", "Keanu Reeves");
 $film2 = new Movie(new Title("Avatar 2", "La Via dell'Acqua"), "14-12-2022", "James Cameron", "Sam Worthington");
 
 
